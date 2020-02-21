@@ -1,0 +1,70 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-primary {
+    background-color: rgb(51, 160, 255);
+    color: white;
+    border: rgb(51, 160, 255);
+}
+
+.button-primary:hover {
+    background-color: rgb(46, 144, 229);
+    color: white;
+    border: rgb(46, 144, 229);
+}
+
+
+.button-danger {
+    background-color: rgb(255,72,88);
+    color: white;
+    border: rgb(255,72,88);
+}
+
+.button-danger:hover {
+    background-color: rgb(245, 56, 72);
+    color: white;
+    border: rgb(245, 56, 72);
+}
+
+.button-success {
+    background-color: rgb(10,208,10);
+    color: white;
+    border: rgb(10,208,10);
+}
+
+.button-success:hover {
+    background-color: rgb(7,193,7);
+    color: white;
+    border: rgb(7,193,7);
+}
+
+.button-warning {
+    background-color: rgb(255,198,0);
+    color: white;
+    border: rgb(255,198,0);
+}
+
+.button-warning:hover {
+        background-color: rgb(235,182,0);
+        color: white;
+        border: rgb(235,182,0);
+}
+
+.button-default {
+    background-color: rgb(34,38,42);
+    color: white;
+    border: rgb(34,38,42);
+}
+
+.bdefault:hover {
+        background-color: rgb(19,22,26);
+        color: white;
+        border: rgb(19,22,26);
+}
+.button-large {
+    padding: 10px 50px;
+}
+
+/*# sourceMappingURL=main.2a996c20.chunk.css.map*/
