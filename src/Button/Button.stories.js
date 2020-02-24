@@ -28,55 +28,111 @@ storiesOf('Button', module)
     .add('Primary', () => <Button
         label="Do Something"
         type="primary"
+        whiteText
     />)
     .add('Danger', () => <Button
      label="Do Something"
      type="danger"
-
+     whiteText
       />)
       .add('Success', () => <Button
        label="Do Something"
        type="success"
+       whiteText
         />)
         .add('Warning', () => <Button
          label="Do Something"
          type="warning"
+         whiteText
           />)
           .add('Default', () => <Button
          label="Do Something"
          type="default"
+         whiteText
           />)
            .add('Large Primary', () => <Button
               label="Do Something"
               type="primary"
               large
+              whiteText
           />)
            .add('Large Danger', () => <Button
               label="Do Something"
               type="danger"
               large
+              whiteText
           />)
             .add('Large Success', () => <Button
               label="Do Something"
               type="success"
               large
+              whiteText
           />)
              .add('Large Warning', () => <Button
               label="Do Something"
               type="warning"
               large
+              whiteText
           />)
              .add('Large Default', () => <Button
               label="Do Something"
               type="Default"
               large
+              whiteText
           />)
               .add('Large Default', () => <Button
               label="Do Something"
               type="default"
               large
+              whiteText
               />)
-               .add('Blank Primary', () => <Button
+               .add('Primary Border', () => <Button
                label="Do Something"
-               type="innerblank"
+               type="primaryBorder"
+               primaryText
+               />)
+               .add('Danger Border', () => <Button
+               label="Do Something"
+               type="dangerBorder"
+               dangerText
+               />)
+               .add('Success Border', () => <Button
+               label="Do Something"
+               type="successBorder"
+               successText
+               />)
+               .add('Warning Border', () => <Button
+               label="Do Something"
+               type="warningBorder"
+               warningText
+               />)
+               .add('Default Border', () => <Button
+               label="Do Something"
+               type="defaultBorder"
+               defaultText
+               />)
+               .add('Opaque Primary', () => <Button
+               label="Do Something"
+               type="opaqueP"
+               primaryText
+               />)
+                .add('Opaque Danger', () => <Button
+                label="Do Something"
+                type="opaqueD"
+                dangerText
+                />)
+                 .add('Opaque Success', () => <Button
+                 label="Do Something"
+                 type="opaqueS"
+                 successText
+                 />)
+                 .add('Opaque Warning', () => <Button
+               label="Do Something"
+               type="opaqueW"
+               warningText
+               />)
+               .add('Opaque Default', () => <Button
+               label="Do Something"
+               type="opaqueDf"
+               defaultText
                />)
