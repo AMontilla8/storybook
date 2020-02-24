@@ -69,6 +69,7 @@ button {
 }
 /* button text END */
 
+/* Border */
 .button-primaryBorder {
     border: 1px solid rgb(20,147, 230);
 }
@@ -84,12 +85,13 @@ button {
 .button-defaultBorder {
     border: 1px solid rgb(34,38,42);
 }
-
+/* Border END */
 
 /* Opaque buttons */
 .button-opaqueP {
     background-color: rgb(51, 160, 255, 0.3);
     border: rgb(51, 160, 255, 0.3);
+    
 }
 .button-opaqueD{
     background-color: rgb(255,72,88, 0.3);
@@ -109,8 +111,49 @@ button {
 }
 /* Opaque button End */
 
-
+.button-addTo {
+    background-image: url(../img/cart_2.png);
+    background-repeat: no-repeat;
+    background-position-x: 7%;
+    background-position-y: 44%;
+    background-size: 10%;
+    background-color: rgb(51, 160, 255, 0.3);
+    border: rgb(51, 160, 255, 0.3);
+}
+.button-favorite {
+    background-image: url(../img/hearts.png);
+    background-repeat: no-repeat;
+    background-position-x: 7%;
+    background-position-y: 44%;
+    background-size: 10%;
+    background-color: rgb(51, 160, 255, 0.3);
+    border: rgb(51, 160, 255, 0.3);
+}
 
 .button-large {
 padding: 10px 50px;
+}
+.button-cart {
+width: 20px;
+height: 20px;
+padding: 1%;
+background-image: url(../img/cart_2.png);
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-size: 40%;
+background-color: rgb(51, 160, 255, 0.3);
+border: rgb(51, 160, 255, 0.3);
+}
+.button-heart {
+    width: 20px;
+    height: 20px;
+    padding: 1%;
+    background-image: url(../img/hearts.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 40%;
+    background-color: rgb(51, 160, 255, 0.3);
+    border: rgb(51, 160, 255, 0.3);
 }

@@ -24,7 +24,12 @@ const Button = (props) => {
             "opaqueD",
              "opaqueS",
               "opaqueW",
-               "opaqueDf"]
+               "opaqueDf",
+                "addTo",
+                 "favorite",
+                  "cart",
+                  "heart"
+            ]
 
  if (types.includes(props.type)) {
      classList += ` button-${props.type}`
