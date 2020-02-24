@@ -58,11 +58,20 @@ button {
     border: rgb(34,38,42);
 }
 
-.bdefault:hover {
+.button-default:hover {
         background-color: rgb(19,22,26);
         color: white;
         border: rgb(19,22,26);
 }
 .button-large {
     padding: 10px 50px;
+}
+
+.button-whiteText {
+    color: white;
+}
+
+.button-innerblank {
+    color: #33A0FF;
+    border: 1px solid rgb(20,147, 230);
 }

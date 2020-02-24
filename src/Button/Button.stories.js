@@ -58,12 +58,12 @@ storiesOf('Button', module)
           />)
             .add('Large Success', () => <Button
               label="Do Something"
-              type="Success"
+              type="success"
               large
           />)
              .add('Large Warning', () => <Button
               label="Do Something"
-              type="Warning"
+              type="warning"
               large
           />)
              .add('Large Default', () => <Button
@@ -71,8 +71,12 @@ storiesOf('Button', module)
               type="Default"
               large
           />)
-          .add('Large Default', () => <Button
-          label="Do Something"
-          type="default"
-          large
-           />)
+              .add('Large Default', () => <Button
+              label="Do Something"
+              type="default"
+              large
+              />)
+               .add('Blank Primary', () => <Button
+               label="Do Something"
+               type="innerblank"
+               />)
