@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 182px 118px;
+    grid-template-rows: 46px;
+}
+
+.large {
+    display: grid;
+    grid-template-columns: 251px 118px;
+    grid-template-rows: 60px;
+
+}
+.big {
+    width: 171px;
+    height: 60px;
+}

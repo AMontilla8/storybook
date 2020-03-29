@@ -1,0 +1,14 @@
+.counter-center{
+    width: 100px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+    background-color: rgb(224, 239, 253);
+}
+
+.increment, .decrement{
+    color: rgb(15, 187, 255);
+}

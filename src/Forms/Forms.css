@@ -1,0 +1,24 @@
+input {
+    height: 36px;
+    width: 300px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 243, 247);
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.input-medium {
+    height: 40px;
+    font-size: 16px;
+}
+.input-large {
+    height: 54px;
+}
+
+.input-header {
+    display: inline-block;
+    padding-left: 10px;
+}
+.input-voucher {
+    width: 182px;
+}

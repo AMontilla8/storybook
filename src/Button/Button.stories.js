@@ -18,11 +18,11 @@ const dangerStyle = {
     border: 'Red'
 }
 
-storiesOf('Button', module)
-    .add('Primary', () => <Button
-        label="Do Something"
-        style={style}
-    />) 
+// storiesOf('Button', module)
+//     .add('Primary', () => <Button
+//         label="Do Something"
+//         style={style}
+//     />) 
 
 storiesOf('Button', module)
     .add('Primary', () => <Button
