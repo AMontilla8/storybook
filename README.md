@@ -21,5 +21,5 @@ The page will reload if you make edits.
 
 To exit 
 
-![lybrary1] (button.png)
-![lybrary2] (top.png)
+![lybrary1](button.png)
+![lybrary2](top.png)
