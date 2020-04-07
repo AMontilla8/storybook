@@ -2,6 +2,14 @@
 
 I re-created the look of the Buttons and Forms components provided for me on the images bellow. 
 
+## Built With
+
+* React
+
+## Authors
+
+* **Anderson Guerrero** - *agmontilla08@gmail.com* 
+
 ## How To run
 
 In the project directory, you can run:
