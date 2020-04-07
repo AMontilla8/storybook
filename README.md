@@ -1,4 +1,4 @@
-https://amontilla8.github.io/storybook/
+amontilla-storybook.netlify.com
 
 Project 5
 ## My First React Storybook Project
